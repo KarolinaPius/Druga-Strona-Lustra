@@ -3,82 +3,94 @@
 <head>
     <meta charset="utf-8"/>
     <title>Druga Strona Lustra</title>
-    <link href="css/stylesheet.css" type="text/css" rel="stylesheet"/>
-    <link href="css/stylesheet2.css" type="text/css" rel="stylesheet"/>
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
-    <link href="css/style.css" type="text/css" rel="stylesheet"/>
+    <link href="css/main.css" type="text/css" rel="stylesheet"/>
 
 </head>
 
 <body>
   <div class="container">
     <nav class="mainNav">
-        <a class="list-item" href="#">
-          <div id="list-item" class="list-item1">FUNDACJA</div>
+        <a class="nav-item" href="#">
+          <div class="list-item" id="list-item1">FUNDACJA</div>
         </a>
-        <a class="list-item" href="#">
-          <div id="list-item" class="list-item2">PROGRAM STAŻOWY</div>
+        <a class="nav-item" href="#">
+          <div class="list-item" id="list-item2">PROGRAM STAŻOWY</div>
         </a>
-        <a class="list-item" href="#">
-          <div id="list-item" class="list-item3">DLA DZIECI</div>
+        <a class="nav-item" href="#">
+          <div class="list-item" id="list-item3">DLA DZIECI</div>
         </a>
-        <a class="list-item" href="#">
-          <div id="list-item" class="list-item4"> RODZICE I OPIEKUNOWIE</div>
+        <a class="nav-item" href="#">
+          <div class="list-item" id="list-item4"> RODZICE <br>I OPIEKUNOWIE</div>
         </a>
-        <a class="list-item" href="#">
-          <div id="list-item" class="list-item5">POMAGAJ Z NAMI</div>
-      </a>
+        <a class="nav-item" href="#">
+          <div class="list-item" id="list-item5">POMAGAJ Z NAMI</div>
+        </a>
     </nav>
 
-  	<div id="wrapper" class="wrapper">
+  	<div class="wrapper">
 
-  		<div id="slides" class="slides">
+  		<div class="slides">
 
-  				<figure id="slide1" class="show">
-  				  <img src="photos/open.jpg"/>
-            <div class="sliderText">
-              <h1>Lorem Ipsum</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              <button>READ MORE</button>
+            <figure id="slide1" class="show">
+                <img src="photos/rajski.jpg"/>
+                <div class="sliderText">
+                    <h1>Warsztaty w szpitalach</h1>
+                    <p>Nasi wolontariusze działają z wielkim zaangażowaniem. Towarzyszą dzieciom na obu warszawskich oddziałach psychiatrii dziecięcej- w&nbsp;Instytucie Psychiatrii i Neurologii oraz Samodzielnym Publicznym Dziecięcym Szpitalu Klinicznym.</p>
+                    <button>Czytaj dalej</button>
+                </div>
+            </figure>
+
+            <figure id="slide2">
+                <img src="photos/harcerze.jpg"/>
+                <div class="sliderText">
+                    <h1>Projekty szkolne</h1>
+                    <p>Zdrowe dzieci to późniejsi zdrowi dorośli. <br>Dlatego edukujemy w szkołach i organizacjach młodzieżowych. Razem z dziećmi tworzymy siłę, która da im potencjał do walki ze stresem i nauczy jak sobie pomagać w trudnych chwilach.</p>
+                    <button>Czytaj dalej</button>
+                </div>
+            </figure>
+
+            <figure id="slide3">
+                <img src="photos/cup.jpg"/>
+                <div class="sliderText">
+                    <h1>3Lorem Ipsum</h1>
+                    <p>3Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <button>Czytaj dalej</button>
+                </div>
+            </figure>
+
+            <div>
+                <div id="prev" class="prev">
+                    <div>&lsaquo;</div>
+                </div>
+
+                <div id="next" class="next">
+                    <div>&rsaquo;</div>
+                </div>
             </div>
-          </figure>
+        </div>
 
-  				<figure id="slide2">
-  				  <img src="photos/bus.jpg"/>
-            <div class="sliderText">
-              <h1>2Lorem Ipsum</h1>
-              <p>2Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              <button>2READ MORE</button>
-  				</figure>
+        <nav>
+            <ul>
+                <li><button id="pin1" class="pin" /></li>
+                <li><button id="pin2" class="pin" /></li>
+                <li><button id="pin3" class="pin" /></li>
+            </ul>
+        </nav>
 
-  				<figure id="slide3">
-  				  <img src="photos/cup.jpg"/>
-            <div class="sliderText">
-              <h1>3Lorem Ipsum</h1>
-              <p>3Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              <button>3READ MORE</button>
-    			</figure>
-
-  				<div id="prev" class="prev">
-            <div>&lsaquo;</div>
-          </div>
-  				<div id="next" class="next">
-            <div>&rsaquo;</div>
-          </div>
-    		</div>
-
-  			<nav>
-  				<ul>
-  					<li><button id="pin1" class="pin" />
-  					<li><button id="pin2" class="pin" />
-  					<li><button id="pin3" class="pin" />
-  				</ul>
-  			</nav>
-		</div>
+    </div>
 
     <div class="mainInfo">
-      <h1>About us</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h1>Poznaj nas!</h1>
+
+            <img src="photos/logonakoszulki.png" class="logo">
+            <p class="mainInfo-text">Jesteśmy Fundacją, dla której najmłodsi ludzie to potęga :)            <br><br>
+                Wierzymy, że esencją dzieciństwa jest prawo do rozwoju i szczęścia. Dlatego dbamy zarówno o profilaktykę zdrowia psychicznego, jak i o prawa tych dzieci, które doświadczają zaburzeń psychicznych i ich walka o szczęście jest dużo trudniejsza.
+                <br><br>Prowadzimy warsztaty w szkołach uczące o emocjach, a nasi wolontariusze dbają o to, żeby dzieci, które przebywają w warszawskich klinikach psychiatrii nie odczuwały samotności i doświadczały energii i zaangażowania wierzących w nich ludzi.
+                <br><br>Chcemy, żeby świat był odrobinę lepszy i przyjaźniejszy wszystkim, którzy spotkali na swojej drodze trudności.
+            </p>
+
     </div>
 
     <div class="tiles">
@@ -86,13 +98,22 @@
     </div>
 
     <footer>
-      <span>KRS 0000456292</span>
-      <span>2stronalustra@gmail.com</span>
-      <a href="#"><i class="fab fa-facebook"></i></a>
+        <div>
+            <p class="footer-contact-main">Kontakt:</p>
+            <p class="footer-contact-mail">2stronalustra@gmail.com</p>
+        </div>
+
+        <p>krs 0000456292</p>
+        <div class="bank-account">
+            <p class="bank-account-main">nr konta fundacji:</p>
+            <p class="bank-account-number">86 2030 0045 1110 0000 0270 6700<br>bank bgż bnp paribas</p>
+        </div>
+
+        <a href="#"><i class="fab fa-facebook"></i></a>
     </footer>
   </div>
 
-		<script type="text/javascript" src="main.js"></script>
+  <script type="text/javascript" src="main.js"></script>
 
 </body>
 </html>
